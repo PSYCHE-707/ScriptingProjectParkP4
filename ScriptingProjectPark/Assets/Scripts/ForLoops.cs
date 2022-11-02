@@ -6,10 +6,10 @@ public class ForLoops : MonoBehaviour
 {
     int numEnemies = 3;
 
-    // Start is called before the first frame update
+
     void Start()
     {
-        for(int i = 0; 1 < numEnemies; i++)
+        for(int i = 0; i < numEnemies; i++)
         {
             Debug.Log("Creating enemy number: " + i);
         }
